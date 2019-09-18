@@ -1,0 +1,68 @@
+#title {
+  font-family: Roboto;
+  letter-spacing: 0.35em;
+  width: 100%;
+  text-align: center;
+  font-size: 7vw;
+  margin: 10px;
+}
+
+#time {
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: justify;
+  font-size: 8.3vw;
+  font-family: Montserrat;
+}
+
+#labels {
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 1.5vw;
+  text-align: justify;
+}
+
+.label {
+  font-family: Roboto;
+  display: inline-block;
+}
+
+#days {
+  margin-left: 7%;
+}
+
+#hours {
+  margin-left: 17%;
+}
+
+#minutes {
+  margin-left: 13%;
+}
+
+#seconds {
+  margin-left: 13%;
+}
+
+button {
+  width: 10%;
+  height: 10%;
+  border-radius: 8px;
+  background-color: white;
+  border: 2px solid black;
+  font-family: Roboto;
+  font-size: 20px;
+  margin-top: 2%;
+  margin-left: 45%;
+  margin-right: 45%;
+}
+
+img {
+  width: 75%;
+  height: 50%;
+  margin: auto;
+  display: block;
+}
