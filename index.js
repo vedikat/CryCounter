@@ -11,9 +11,9 @@ setInterval( function() {
     var current = Math.floor(window.localStorage.getItem('current'));
     var now = Math.floor(Date.now() / 1000);
     var diff = now - current;
-    var d = pad(Math.floor(diff / 86400));
-    var h = pad(Math.floor(diff / 3600));
-    var m = pad(Math.floor(diff / 60));
+    var d = pad(Math.floor(diff / 86400) % 60);
+    var h = pad(Math.floor(diff / 3600) % 60);
+    var m = pad(Math.floor(diff / 60) % 60);
     var s = pad(Math.floor(diff % 60));
     document.getElementById("time").innerHTML = d + ":" + h + ":" + m + ":" + s;
   }, 1000);
